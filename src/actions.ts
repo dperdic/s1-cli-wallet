@@ -71,9 +71,14 @@ export const airdrop = async (address: string, amount: number) => {
     const confirmation = await confirmTransaction(tx);
 
     if (confirmation.value.err) {
-    } else {
-      console.log("Transaction hash: ", tx);
+      console.log(
+        chalk.red(
+          "An error occured while confirming the transaction. Check the transaction on an explorer."
+        )
+      );
     }
+
+    console.log("Transaction hash: ", tx);
   } catch (error) {
     console.log(chalk.red("Error requesting airdrop:", error));
   }
