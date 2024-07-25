@@ -1,0 +1,20 @@
+{
+  "name": "grobana",
+  "description": "Grobana is a simple CLI wallet designed to interact with Solana.",
+  "module": "src/cli.ts",
+  "type": "module",
+  "author": "dperdic",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/bun": "latest",
+    "@solana/web3.js": "^1.95.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^13.0.1"
+  },
+  "bin": {
+    "grobana": "./src/cli.ts"
+  }
+}
