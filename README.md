@@ -1,6 +1,6 @@
 # Grobana
 
-This project requires `bun` to work.
+This project requires [Bun](https://bun.sh) to work.
 
 To install dependencies run at the root of the project:
 
