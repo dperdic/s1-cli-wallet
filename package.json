@@ -1,9 +1,15 @@
 {
-  "name": "grobana",
-  "description": "Grobana is a simple CLI wallet designed to interact with Solana.",
-  "module": "src/cli.ts",
-  "type": "module",
+  "name": "solstash",
+  "version": "1.0.0",
   "author": "dperdic",
+  "description": "Solstash is a simple CLI wallet designed to interact with Solana.",
+  "module": "dist/cli.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "reset": "rimraf ./node_modules && bun i",
+    "make": "bun clean && bun build ./src/cli.ts --minify --splitting --outdir=dist --outfile=cli.js --target=node"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
@@ -15,6 +21,6 @@
     "conf": "^13.0.1"
   },
   "bin": {
-    "grobana": "./src/cli.ts"
+    "solstash": "dist/cli.js"
   }
 }

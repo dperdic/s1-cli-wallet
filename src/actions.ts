@@ -15,7 +15,7 @@ import {
 
 const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
 const conf = new Conf({
-  projectName: "grobana",
+  projectName: "solstash",
   projectVersion: "1.0.0",
 });
 

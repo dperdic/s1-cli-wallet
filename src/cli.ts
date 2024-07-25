@@ -1,11 +1,11 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 
 import { Command } from "commander";
 import { list, balance, keygen, airdrop, transfer, clear } from "./actions";
 
 const program = new Command();
 
-program.name("grobana").description("A simple CLI wallet").version("1.0.0");
+program.name("solstash").description("A simple CLI wallet").version("1.0.0");
 
 program.command("keygen").description("generates a new keypair").action(keygen);
 
