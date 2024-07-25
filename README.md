@@ -14,7 +14,7 @@ To install the cli run at the root of the project:
 npm i -g
 ```
 
-Grobana should now be installed, to use it and list all of the commands run:
+Grobana should now be installed, to use the cli and list all of the commands run:
 
 ```bash
 grobana
