@@ -20,6 +20,9 @@
     "commander": "^12.1.0",
     "conf": "^13.0.1"
   },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  },
   "bin": {
     "solstash": "dist/cli.js"
   }
