@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "rimraf ./dist",
     "reset": "rimraf ./node_modules && bun i",
-    "make": "bun clean && bun build ./src/cli.ts --minify --splitting --outdir=dist --outfile=cli.js --target=node"
+    "make": "bun clean && bun build ./src/cli.ts --minify --outdir=dist --outfile=cli.js --target=node"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
