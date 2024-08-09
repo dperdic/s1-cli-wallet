@@ -2,7 +2,7 @@
 
 A simple CLI wallet designed to interact with the Solana blockchain.
 
-This project requires [Bun](https://bun.sh) to work.
+This project requires [bun](https://bun.sh) to work.
 
 To install dependencies and build the project run the following command at the root of the project:
 
