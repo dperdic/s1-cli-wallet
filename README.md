@@ -1,5 +1,7 @@
 # Solstash
 
+First assignment for the Solana Summer Fellowship 2024.
+
 A simple CLI wallet designed to interact with the Solana blockchain.
 
 This project requires [bun](https://bun.sh) to work.
